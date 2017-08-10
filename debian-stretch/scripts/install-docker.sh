@@ -25,7 +25,7 @@ trap 'errorHandling $LINENO' ERR
 
 checkRequirements
 
-add-apt-repository $dockerRepository
+add-apt-repository "'"$dockerRepository"'"
 
 $aptUpdate
 $pkgInstall $pkgName
