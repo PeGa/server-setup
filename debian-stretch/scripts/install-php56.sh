@@ -1,9 +1,11 @@
 #!/bin/bash -eu
 
-# This script will attempt to install percona-server-server
-# and percona-server-client on version 5.7. If this version
-# is not desired, feel free to modify the perconaVersion 
-# variable your needs.
+# This script will attempt to install php5.6
+# on Debian Stretch, which is not currently supported
+# by the time of writing this script (08/2017). It uses a
+# custom repository from a Debian Maintainer, Ondřej Surý.
+# More info: https://deb.sury.org/
+#
 
 pkgInstall="apt install -y"
 aptUpdate="apt update"
