@@ -41,4 +41,4 @@ tmux
 vim
 whois
 "
-apt install $packageList
+apt install -y $packageList
