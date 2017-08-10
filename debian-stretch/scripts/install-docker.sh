@@ -14,7 +14,7 @@ errorHandling() {
     echo "Unable to continue. Error on line $1"
 }
 checkRequirements(){
-	dockerRequirements="apt-transport-https ca-certificates curl python-software-properties"
+	dockerRequirements="apt-transport-https ca-certificates curl software-properties-common"
 	$aptUpdate
 	$pkgInstall $dockerRequirements
 	curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
