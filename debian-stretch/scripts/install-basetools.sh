@@ -26,6 +26,7 @@ locate
 logrotate
 lsb-release
 mailutils
+man-db
 mc
 ncdu
 nmap
