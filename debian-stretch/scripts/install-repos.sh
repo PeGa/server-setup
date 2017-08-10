@@ -7,7 +7,7 @@ errorHandling() {
 alreadyInstalled() {
 	echo 
 	echo "	Installation aborted. I found previous backups;"
-	echo "	repositories already installed."
+	echo "	repositories might be already installed."
 	echo
 	exit 1
 }
@@ -18,7 +18,7 @@ noStoredConfigFound(){
 	echo "Please make sure you're running this script from"
 	echo "its own directory and that a conf/ directory"
 	echo "containing all the stored settings for apt exists"
-	echo "at the same level of the scripts/ directory"
+	echo "at the same level of the scripts/ directory."
 	echo
 	exit 1
 }
