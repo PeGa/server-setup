@@ -8,7 +8,7 @@
 pkgInstall="apt install -y"
 aptUpdate="apt update"
 dockerRepository='deb [arch=amd64] https://download.docker.com/linux/debian stretch stable'
-$pkgName="docker-ce"
+pkgName="docker-ce"
 
 errorHandling() {
     echo "Unable to continue. Error on line $1"
